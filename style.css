@@ -1,0 +1,10 @@
+.cabecalho {
+  position: absolute;
+  top: -2.5em;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #103d4a;
+  padding-bottom: .5em
+}
