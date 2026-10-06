@@ -66,17 +66,20 @@
     max-width: 700px;
     margin: 0 auto 40px;
   }
-  .secaoDestaque-cta btnPadrao{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 4px;
-    padding: 16px 80px;
-    font-size: 17px;
-  }
-  .secaoDestaque-cta btnPadrao:hover{
-    background-color: white;
-    color: #333;
-  }
+  .btnPadrao {
+  border-radius: 5px;
+  border: 0;
+  background-color: #B72E2E;
+  color: #fff;
+  font-size: 1.2em;
+  padding: .3em 1em;
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
+  outline: 0;
+  text-decoration: none;
+}
 
+.btnPadrao:hover,
+.btnPadrao:focus {
+  background-image: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .05));
+  cursor: pointer;
+}
