@@ -308,21 +308,10 @@ main {
   display: inline-block;
 }
 
-
 .listaDeArtigos-artigo-img {
   width: 100%;
   display: block;
 }
-
-/* Apenas para diferenciar as imagens */
-.listaDeArtigos-item:nth-of-type(2) img {
-  filter: sepia(.7)
-}
-
-.listaDeArtigos-item:nth-of-type(3) img {
-  filter: hue-rotate(10deg) saturate(1)
-}
-
 .listaDeArtigos-artigo-titulo {
   font-family: 'Montserrat', sans-serif;
   margin: .7em 0;
@@ -364,3 +353,5 @@ main {
 .listaDeArtigos-slider-item--ativo {
   background: hsla(200, 70%, 0%, .6);
 }
+
+
