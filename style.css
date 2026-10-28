@@ -275,6 +275,14 @@ main {
   color: #fff;
 }
 
+@media (min-width: 830px) {
+
+  .secaoPlanos-plano {
+    max-width: 260px;
+  }
+
+}
+
 .secaoBlog {
   text-align: center;
 }
