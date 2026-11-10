@@ -610,3 +610,9 @@ main {
   transform: translateY(112%) scale(.65);
   background-image: url(validacao-erro.png);
 }
+
+.tituloPadrao{
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.2em
+}
