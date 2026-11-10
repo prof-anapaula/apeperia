@@ -426,6 +426,13 @@ main {
   text-align: left;
 }
 
+.secaoContato-titulo{
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+   text-align: center;
+}
+
 .secaoContato-wink {
   color: #EB5757;
   font-weight: bold;
@@ -611,8 +618,3 @@ main {
   background-image: url(validacao-erro.png);
 }
 
-.tituloPadrao{
-  margin-top: 1em;
-  font-weight: bold;
-  font-size: 1.2em
-}
